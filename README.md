@@ -141,12 +141,12 @@ Why financial systems first?
 This project starts intentionally narrow.
 
 Financial systems have:
-	•	Clear, non-negotiable invariants
-	•	High cost of failure
-	•	Well-documented real-world incidents
-	•	Immediate relevance in an AI-generated code world
+- Clear, non-negotiable invariants
+- High cost of failure
+- Well-documented real-world incidents
+- Immediate relevance in an AI-generated code world
 
-Wallets, ledgers, exchanges, and trading systems are where “probably correct” is unacceptable.
+Wallets, ledgers, exchanges, and trading systems are where "probably correct" is unacceptable.
 
 Once proven here, the approach generalizes to other domains.
 
@@ -154,17 +154,16 @@ Once proven here, the approach generalizes to other domains.
 ⸻
 
 Invariant-first is designed as a bridge, not a leap:
+**Today**
+- Executable invariants (Python)
+- Test-time and runtime enforcement
+- Clear separation of IO and logic
+- Optional AI assistance for invariant discovery
 
-Today
-	•	Executable invariants (Python)
-	•	Test-time and runtime enforcement
-	•	Clear separation of IO and logic
-	•	Optional AI assistance for invariant discovery
-
-Tomorrow
-	•	Exportable formal models (Lean / Coq)
-	•	AI-generated proof attempts
-	•	Proof failures treated like compiler errors
+**Tomorrow**
+- Exportable formal models (Lean / Coq)
+- AI-generated proof attempts
+- Proof failures treated like compiler errors
 
 The goal is not academic purity — it is machine-checkable correctness.
 
