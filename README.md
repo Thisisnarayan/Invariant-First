@@ -1,6 +1,6 @@
 ⸻
 
-# invariant-first
+# Invariant-First
 
 **Build financial systems where money cannot disappear.**
 
